@@ -22,15 +22,15 @@
     "text": "Modern AI systems are embedded in workflows where users ask follow-ups, negotiate meaning, revise goals, and calibrate trust over time. Yet most ML objectives and benchmarks remain static. We aim to build a common foundation that connects (i) human-centered measurement, (ii) algorithm design for interaction, and (iii) theory that clarifies what can be guaranteed about long-horizon human–AI outcomes.",
     "cards": [
       {
-        "title": "Human factors as objectives",
+        "title": "Theory: Human factors as objectives",
         "body": "Study and optimize measurable outcomes: trust calibration, reliance, cognitive effort, error recovery, and decision quality."
       },
       {
-        "title": "Bridging HCI ↔ ML foundations",
+        "title": "Algorithms: Bridging HCI ↔ ML foundations",
         "body": "Translate user studies into objectives, training signals, and evaluation protocols that can be iterated and audited."
       },
       {
-        "title": "Evaluation beyond static accuracy",
+        "title": "Practice: Evaluation beyond static accuracy",
         "body": "Move toward multi-turn and longitudinal evaluation where failures emerge through interaction dynamics."
       }
     ]
