@@ -9,13 +9,13 @@
     "xHandle": "@your_handle_here"
   },
   "hero": {
-    "kicker": "ICML 2026 Workshop Proposal — Submitted",
+    "kicker": "ICML 2026 Workshop (Proposed)",
     "titleHTML": "Foundations of Human–AI Interactions:<br class=\"d-none d-md-block\">Theory, Algorithms, Practice",
     "lead": "AI is increasingly experienced as an interactive system—not a static predictor. This workshop proposal focuses on the science of interaction: human factors (reliance, trust calibration, cognitive effort, decision quality) and the algorithmic foundations needed to design interactive AI responsibly.",
     "pills": [
-      "Status: proposal submitted",
+      "Status: Proposal Submitted",
       "ICML 2026 — Seoul, Korea",
-      "Keynotes + Posters + Panel + Interactive Challenge (planned)"
+      "Keynotes + Posters + Panel + Interactive Challenge"
     ]
   },
   "about": {

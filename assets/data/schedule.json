@@ -1,19 +1,19 @@
 {
-  "note": "This is a mock schedule reflecting the intended structure: keynotes, an interactive Human–AI Alignment Challenge (working title), and two poster sessions (one after lunch; one before closing). Exact timing depends on ICML workshop slot allocation.",
+  "note": "Tentative schedule. Exact timing TBD",
   "items": [
-    { "time": "09:00–09:10", "session": "Opening", "details": "Framing: science of interaction; bridging human factors and interactive ML", "type": "" },
-    { "time": "09:10–09:45", "session": "Keynote 1", "details": "Been Kim (Confirmed) — Title TBA", "type": "" },
-    { "time": "09:45–10:20", "session": "Keynote 2", "details": "Hamed Hassani (Confirmed) — Title TBA", "type": "" },
+    { "time": "09:00–09:10", "session": "Opening", "details": "Framing: science of interaction; bridging human factors and interactive ML", "type": "general" },
+    { "time": "09:10–09:45", "session": "Keynote 1", "details": "Been Kim (Confirmed) — Title TBA", "type": "keynote" },
+    { "time": "09:45–10:20", "session": "Keynote 2", "details": "Hamed Hassani (Confirmed) — Title TBA", "type": "keynote" },
     { "time": "10:20–10:40", "session": "Break", "details": "Coffee + discussion", "type": "break" },
-    { "time": "10:40–11:15", "session": "Keynote 3", "details": "Invited speaker* — Title TBA", "type": "" },
-    { "time": "11:15–12:00", "session": "Panel (planned)", "details": "What should ‘good interaction’ mean? Metrics, protocols, and failure modes", "type": "" },
+    { "time": "10:40–11:15", "session": "Keynote 3", "details": "Invited speaker* — Title TBA", "type": "general" },
+    { "time": "11:15–12:00", "session": "Panel (planned)", "details": "What should ‘good interaction’ mean? Metrics, protocols, and failure modes", "type": "special" },
     { "time": "12:00–13:30", "session": "Lunch", "details": "—", "type": "break" },
-    { "time": "13:30–14:30", "session": "Poster Session 1", "details": "Posters + demos (focus: measurement & evaluation protocols)", "type": "poster" },
-    { "time": "14:30–15:20", "session": "Interactive Challenge", "details": "Human–AI Alignment Challenge (working title): interactive task + discussion", "type": "challenge" },
+    { "time": "13:30–14:30", "session": "Poster Session 1", "details": "Posters + demos (focus: measurement & evaluation protocols)", "type": "special" },
+    { "time": "14:30–15:20", "session": "Interactive Challenge", "details": "Human–AI Alignment Challenge (working title): interactive task + discussion", "type": "special" },
     { "time": "15:20–15:35", "session": "Break", "details": "—", "type": "break" },
-    { "time": "15:35–16:05", "session": "Keynote 4", "details": "Invited speaker* — Title TBA", "type": "" },
-    { "time": "16:05–16:50", "session": "Poster Session 2", "details": "Posters + networking (final chance to connect)", "type": "poster" },
-    { "time": "16:50–17:00", "session": "Closing", "details": "Open problems + community next steps", "type": "" }
+    { "time": "15:35–16:05", "session": "Keynote 4", "details": "Invited speaker* — Title TBA", "type": "keynote" },
+    { "time": "16:05–16:50", "session": "Poster Session 2", "details": "Posters + networking (final chance to connect)", "type": "special" },
+    { "time": "16:50–17:00", "session": "Closing", "details": "Open problems + community next steps", "type": "general" }
   ],
   "footnote": "* Invited speaker(s); list subject to change."
 }
