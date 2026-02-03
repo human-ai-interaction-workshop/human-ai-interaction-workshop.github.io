@@ -1,0 +1,32 @@
+{
+  "speakers": [
+    {
+      "name": "Hamed Hassani",
+      "affiliation": "University of Pennsylvania",
+      "status": "confirmed",
+      "topic": "Topic placeholder: interactive learning foundations; robustness and evaluation under feedback loops.",
+      "url": ""
+    },
+    {
+      "name": "Been Kim",
+      "affiliation": "Google DeepMind / MIT",
+      "status": "confirmed",
+      "topic": "Topic placeholder: human-centered evaluation, interpretability, and interaction quality.",
+      "url": ""
+    },
+    {
+      "name": "Jessica Hullman",
+      "affiliation": "Affiliation (TBD)",
+      "status": "invited",
+      "topic": "Topic placeholder: uncertainty communication; decision-making with AI-in-the-loop systems.",
+      "url": ""
+    },
+    {
+      "name": "Amine Bennouna",
+      "affiliation": "Affiliation (TBD)",
+      "status": "invited",
+      "topic": "Topic placeholder: statistical foundations for interaction; reliability and measurement.",
+      "url": ""
+    }
+  ]
+}
