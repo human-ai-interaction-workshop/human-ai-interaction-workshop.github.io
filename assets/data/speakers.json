@@ -2,7 +2,7 @@
   "speakers": [
     {
       "name": "Been Kim",
-      "affiliation": "Google DeepMind / MIT",
+      "affiliation": "Google DeepMind",
       "status": "confirmed",
       "topic": "Topic placeholder: human-centered evaluation, interpretability, and interaction quality.",
       "url": ""
@@ -16,16 +16,23 @@
     },
     {
       "name": "Jessica Hullman",
-      "affiliation": "Affiliation (TBD)",
+      "affiliation": "Northwestern University",
       "status": "invited",
       "topic": "Topic placeholder: uncertainty communication; decision-making with AI-in-the-loop systems.",
       "url": ""
     },
     {
       "name": "Amine Bennouna",
-      "affiliation": "Affiliation (TBD)",
+      "affiliation": "Northwestern University",
       "status": "invited",
       "topic": "Topic placeholder: statistical foundations for interaction; reliability and measurement.",
+      "url": ""
+    },
+    {
+      "name": "Eric Zelikman",
+      "affiliation": "humans&",
+      "status": "invited",
+      "topic": "",
       "url": ""
     }
   ]
