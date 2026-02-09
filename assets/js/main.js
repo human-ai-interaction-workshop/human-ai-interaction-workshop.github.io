@@ -169,10 +169,30 @@ async function renderOrganizers() {
   }).join("");
 }
 
+async function renderAdvisory() {
+  const data = await loadJSON("assets/data/advisory.json");
+  const grid = document.getElementById("advisoryGrid");
+  if (!grid) return;
+
+
+  grid.innerHTML = data.advisory.map(a => {
+    const open = a.url ? `<a href="${escapeHTML(a.url)}" target="_blank" rel="noopener noreferrer" class="text-decoration-none">` : "";
+    const close = a.url ? `</a>` : "";
+    return `
+      <div class="col-md-6 col-lg-4">
+        <div class="soft-card p-4 h-100">
+          <div class="speaker-name">${open}${escapeHTML(a.name)}${close}</div>
+          <div class="tiny">${escapeHTML(a.affiliation || "")}</div>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
 (async function main() {
   try {
     await renderSite();
-    await Promise.all([renderSpeakers(), renderSchedule(), renderOrganizers()]);
+    await Promise.all([renderSpeakers(), renderSchedule(), renderOrganizers(), renderAdvisory()]);
   } catch (e) {
     console.error(e);
   }

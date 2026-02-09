@@ -36,6 +36,9 @@
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
                     <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#advisory">Advisory Board</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cfp">Call for Papers</a></li>
                 </ul>
             </div>
         </div>
@@ -64,7 +67,8 @@
 
                     <div class="hero-links mt-4">
                         <a class="btn btn-brand btn-lg" href="#speakers">Speakers</a>
-                        <a class="btn btn-ghost btn-lg" href="#schedule">Schedule</a>
+                        <a class="btn btn-brand btn-lg" href="#schedule">Schedule</a>
+                        <a class="btn btn-ghost btn-lg" href="#cfp">Call for Papers</a>
                     </div>
 
                     <div class="hero-contact mt-4" id="heroContact">
@@ -143,6 +147,7 @@
             </div>
         </div>
     </section>
+
     <!-- Organizers -->
     <section id="organizers" class="anchor section-paper">
         <div class="container">
@@ -155,18 +160,66 @@
         </div>
     </section>
 
+
     <!-- Advisory Board -->
     <section id="advisory" class="anchor section-paper">
         <div class="container">
             <h2 class="section-title">Advisory Board</h2>
-            <!-- <p class="section-sub mb-4">We are honored to have a </p> -->
+            <p class="section-sub mb-4">We are grateful to our advisory board for their guidance.</p>
 
-            <div class="row g-3" id="organizersGrid">
-                <!-- filled by JS from organizers.json -->
+            <div class="row g-3" id="advisoryGrid">
+                <!-- filled by JS from advisory.json -->
             </div>
         </div>
     </section>
 
+    <!-- Call for Papers -->
+    <section id="cfp" class="anchor section-paper">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-end gap-2 mb-3">
+                <div>
+                    <h2 class="section-title">Call for Papers</h2>
+                    <p class="section-sub mb-0">
+                        We invite submissions on the foundations of human–AI interaction: theory, algorithms, and
+                        practice.
+                    </p>
+                </div>
+                <div class="d-flex gap-2">
+                    <a class="btn btn-brand" href="call-for-papers.html">Full CFP</a>
+                </div>
+            </div>
+
+            <div class="row g-3 mt-2">
+                <div class="col-md-6 col-lg-4">
+                    <div class="soft-card p-4 h-100">
+                        <div class="about-card-title mb-2">Theory & Measurement</div>
+                        <div class="tiny mb-0">
+                            Formal models of interaction, trust/reliance, cognitive effort, decision quality, and
+                            longitudinal outcomes.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="soft-card p-4 h-100">
+                        <div class="about-card-title mb-2">Algorithms & Learning</div>
+                        <div class="tiny mb-0">
+                            Learning objectives for interaction, feedback and preference modeling, calibration,
+                            robustness, and adaptation over time.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="soft-card p-4 h-100">
+                        <div class="about-card-title mb-2">Benchmarks & Applications</div>
+                        <div class="tiny mb-0">
+                            Evaluation protocols, interactive benchmarks, real-world deployments (e.g., assistants,
+                            decision support), and responsible design.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="site-footer">
         <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
             <div id="footerLeft">© ICML 2026 Workshop Proposal (Submitted) — Foundations of Human–AI Interactions</div>
