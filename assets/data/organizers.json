@@ -1,11 +1,11 @@
 {
   "organizers": [
-    { "name": "Kwan Ho Ryan Chan", "affiliation": "University of Pennsylvania", "url": "https://ryanchankh.com" },
-    { "name": "Sima Noorani", "affiliation": "University of Pennsylvania", "url": "" },
-    { "name": "Hyewon Jeong", "affiliation": "Massachusetts Institute of Technology", "url": "" },
-    { "name": "Jacopo Teneggi", "affiliation": "Johns Hopkins University", "url": "" },
+    { "name": "Kwan Ho Ryan Chan", "affiliation": "University of Pennsylvania", "url": "https://ryanchankh.com", "image": "" },
+    { "name": "Sima Noorani", "affiliation": "University of Pennsylvania", "url": "", "image": "" },
+    { "name": "Hyewon Jeong", "affiliation": "Massachusetts Institute of Technology", "url": "", "image": "" },
+    { "name": "Jacopo Teneggi", "affiliation": "Johns Hopkins University", "url": "", "image": "" },
 
-    { "name": "Chris Chiu", "affiliation": "University of Cambridge", "url": "" },
-    { "name": "Aditya Chattobadhyay", "affiliation": "Amazon AI Labs", "url": "" }
+    { "name": "Chris Chiu", "affiliation": "University of Cambridge", "url": "", "image": "" },
+    { "name": "Aditya Chattobadhyay", "affiliation": "Amazon AI Labs", "url": "", "image": "" }
   ]
 }

@@ -13,15 +13,24 @@ function escapeHTML(str) {
     .replaceAll("'", "&#039;");
 }
 
-function avatarSVG() {
+function avatarSVG(size) {
+  const cls = size === "lg" ? "avatar avatar-lg" : "avatar";
   return `
-    <div class="avatar" aria-hidden="true">
+    <div class="${cls}" aria-hidden="true">
       <svg viewBox="0 0 24 24" fill="none">
         <path d="M12 12a4.5 4.5 0 1 0-4.5-4.5A4.5 4.5 0 0 0 12 12Z" stroke="currentColor" stroke-width="1.6"/>
         <path d="M4.5 20c1.8-4 13.2-4 15 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
       </svg>
     </div>
   `;
+}
+
+function headshot(imageUrl, name, size) {
+  if (imageUrl) {
+    const cls = size === "lg" ? "headshot headshot-lg" : "headshot";
+    return `<img class="${cls}" src="${escapeHTML(imageUrl)}" alt="${escapeHTML(name)}" />`;
+  }
+  return avatarSVG(size);
 }
 
 function tagHTML(status, invitedAsterisk) {
@@ -159,9 +168,10 @@ async function renderOrganizers() {
     const open = o.url ? `<a href="${escapeHTML(o.url)}" target="_blank" rel="noopener noreferrer" class="text-decoration-none">` : "";
     const close = o.url ? `</a>` : "";
     return `
-      <div class="col-md-6 col-lg-4">
-        <div class="soft-card p-4 h-100">
-          <div class="speaker-name">${open}${escapeHTML(o.name)}${close}</div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="soft-card p-4 h-100 person-card">
+          ${headshot(o.image, o.name, "lg")}
+          <div class="speaker-name mt-3">${open}${escapeHTML(o.name)}${close}</div>
           <div class="tiny">${escapeHTML(o.affiliation || "")}</div>
         </div>
       </div>
@@ -174,14 +184,14 @@ async function renderAdvisory() {
   const grid = document.getElementById("advisoryGrid");
   if (!grid) return;
 
-
   grid.innerHTML = data.advisory.map(a => {
     const open = a.url ? `<a href="${escapeHTML(a.url)}" target="_blank" rel="noopener noreferrer" class="text-decoration-none">` : "";
     const close = a.url ? `</a>` : "";
     return `
-      <div class="col-md-6 col-lg-4">
-        <div class="soft-card p-4 h-100">
-          <div class="speaker-name">${open}${escapeHTML(a.name)}${close}</div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="soft-card p-4 h-100 person-card">
+          ${headshot(a.image, a.name, "lg")}
+          <div class="speaker-name mt-3">${open}${escapeHTML(a.name)}${close}</div>
           <div class="tiny">${escapeHTML(a.affiliation || "")}</div>
         </div>
       </div>
