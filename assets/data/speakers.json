@@ -4,35 +4,42 @@
       "name": "Been Kim",
       "affiliation": "Google DeepMind",
       "status": "confirmed",
-      "topic": "Topic placeholder: human-centered evaluation, interpretability, and interaction quality.",
+      "topic": "Interpretability",
+      "url": ""
+    },
+    {
+      "name": "Jessica Hullman",
+      "affiliation": "Northwestern University",
+      "status": "confirmed",
+      "topic": "Bayesian Decision Theory, Uncertainty Quantification, AI for Decision-Making",
       "url": ""
     },
     {
       "name": "Hamed Hassani",
       "affiliation": "University of Pennsylvania",
       "status": "confirmed",
-      "topic": "Themes: interactive learning foundations; robustness and evaluation under feedback loops.",
-      "url": ""
-    },
-    {
-      "name": "Jessica Hullman",
-      "affiliation": "Northwestern University",
-      "status": "invited",
-      "topic": "Topic placeholder: uncertainty communication; decision-making with AI-in-the-loop systems.",
+      "topic": "Trustworthy ML, Information Theory",
       "url": ""
     },
     {
       "name": "Amine Bennouna",
       "affiliation": "Northwestern University",
-      "status": "invited",
-      "topic": "Topic placeholder: statistical foundations for interaction; reliability and measurement.",
+      "status": "confirmed",
+      "topic": "Data-driven Decision Making, Optimization",
       "url": ""
     },
     {
-      "name": "Eric Zelikman",
-      "affiliation": "humans&",
-      "status": "invited",
-      "topic": "",
+      "name": "Eric Zelikman",
+      "affiliation": "Humans&",
+      "status": "confirmed",
+      "topic": "Large Language Models, AI for Science",
+      "url": ""
+    },
+    {
+      "name": "Sin Yu Bonnie Ho",
+      "affiliation": "Microsoft Health and Life Sciences",
+      "status": "confirmed",
+      "topic": "AI for Decision-Making, Patient Care",
       "url": ""
     }
   ]
