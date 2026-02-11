@@ -33,12 +33,11 @@
 
             <div id="nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto gap-lg-2">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cfp">Call for Papers</a></li>
                     <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
                     <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
                     <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
                     <li class="nav-item"><a class="nav-link" href="#advisory">Advisory Board</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#cfp">Call for Papers</a></li>
                 </ul>
             </div>
         </div>
@@ -68,7 +67,7 @@
                     <div class="hero-links mt-4">
                         <a class="btn btn-brand btn-lg" href="#speakers">Speakers</a>
                         <a class="btn btn-brand btn-lg" href="#schedule">Schedule</a>
-                        <a class="btn btn-ghost btn-lg" href="#cfp">Call for Papers</a>
+                        <a class="btn btn-ghost btn-lg" href="call-for-papers.html">Call for Papers</a>
                     </div>
 
                     <div class="hero-contact mt-4" id="heroContact">
@@ -79,16 +78,68 @@
         </div>
     </header>
 
-    <!-- About (merged “why now” + “about”) -->
-    <section id="about" class="anchor">
+    <!-- Call for Papers -->
+    <section id="cfp" class="anchor">
         <div class="container">
-            <h2 class="section-title">About</h2>
-            <p class="section-sub" id="aboutText">
-                <!-- filled by JS from site.json -->
-            </p>
+            <div class="d-flex flex-wrap justify-content-between align-items-end gap-2 mb-3">
+                <div>
+                    <h2 class="section-title">Call for Papers</h2>
+                    <p class="section-sub mb-0">
+                        We invite submissions that explore the foundations of human–AI interaction across theory,
+                        algorithms, and practice. Extended abstracts of up to 4 pages (excl. references) are welcome.
+                    </p>
+                </div>
+                <div class="d-flex gap-2">
+                    <a class="btn btn-brand" href="call-for-papers.html">Full CFP</a>
+                </div>
+            </div>
 
-            <div class="row g-3 mt-2" id="aboutCards">
-                <!-- filled by JS from site.json -->
+            <div class="row g-3 mt-2">
+                <div class="col-md-6 col-lg-4">
+                    <div class="soft-card p-4 h-100">
+                        <div class="about-card-title mb-2">Theory & Measurement</div>
+                        <div class="tiny mb-0">
+                            Statistical learning theory for interaction, uncertainty quantification, value of information,
+                            game-theoretic and sequential models of collaboration, trust/reliance, cognitive effort,
+                            decision quality, and formal characterizations of human behavior.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="soft-card p-4 h-100">
+                        <div class="about-card-title mb-2">Algorithms & Learning</div>
+                        <div class="tiny mb-0">
+                            Learning with human feedback, interactive and conversational systems, uncertainty-aware
+                            inference, interpretability as interaction mechanism, preference modeling, robustness,
+                            personalization, and evaluation metrics for collaborative performance.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="soft-card p-4 h-100">
+                        <div class="about-card-title mb-2">Benchmarks & Applications</div>
+                        <div class="tiny mb-0">
+                            Healthcare and medicine, scientific discovery, recommendation systems, entertainment,
+                            embodied agents and robotics, personalization, preference elicitation, interactive benchmarks,
+                            and responsible deployment.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Dates -->
+            <div class="row g-3 mt-3">
+                <div class="col-12">
+                    <div class="soft-card p-4">
+                        <div class="about-card-title mb-2">Important Dates</div>
+                        <div class="tiny d-flex flex-wrap gap-4">
+                            <div><strong>Call for Papers:</strong> March 22, 2026</div>
+                            <div><strong>Submission Deadline:</strong> April 24, 2026</div>
+                            <div><strong>Notification:</strong> May 15, 2026</div>
+                            <div><strong>Workshop:</strong> July 2026 (ICML, Seoul)</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -160,7 +211,6 @@
         </div>
     </section>
 
-
     <!-- Advisory Board -->
     <section id="advisory" class="anchor section-paper">
         <div class="container">
@@ -173,71 +223,6 @@
         </div>
     </section>
 
-    <!-- Call for Papers -->
-    <section id="cfp" class="anchor section-paper">
-        <div class="container">
-            <div class="d-flex flex-wrap justify-content-between align-items-end gap-2 mb-3">
-                <div>
-                    <h2 class="section-title">Call for Papers</h2>
-                    <p class="section-sub mb-0">
-                        We invite submissions that explore the foundations of human–AI interaction across theory,
-                        algorithms, and practice. Extended abstracts of up to 4 pages (excl. references) are welcome.
-                    </p>
-                </div>
-                <div class="d-flex gap-2">
-                    <a class="btn btn-brand" href="call-for-papers.html">Full CFP</a>
-                </div>
-            </div>
-
-            <div class="row g-3 mt-2">
-                <div class="col-md-6 col-lg-4">
-                    <div class="soft-card p-4 h-100">
-                        <div class="about-card-title mb-2">Theory & Measurement</div>
-                        <div class="tiny mb-0">
-                            Statistical learning theory for interaction, uncertainty quantification, value of information,
-                            game-theoretic and sequential models of collaboration, trust/reliance, cognitive effort,
-                            decision quality, and formal characterizations of human behavior.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="soft-card p-4 h-100">
-                        <div class="about-card-title mb-2">Algorithms & Learning</div>
-                        <div class="tiny mb-0">
-                            Learning with human feedback, interactive and conversational systems, uncertainty-aware
-                            inference, interpretability as interaction mechanism, preference modeling, robustness,
-                            personalization, and evaluation metrics for collaborative performance.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="soft-card p-4 h-100">
-                        <div class="about-card-title mb-2">Benchmarks & Applications</div>
-                        <div class="tiny mb-0">
-                            Healthcare and medicine, scientific discovery, recommendation systems, entertainment,
-                            embodied agents and robotics, personalization, preference elicitation, interactive benchmarks,
-                            and responsible deployment.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Key Dates -->
-            <div class="row g-3 mt-3">
-                <div class="col-12">
-                    <div class="soft-card p-4">
-                        <div class="about-card-title mb-2">Important Dates</div>
-                        <div class="tiny d-flex flex-wrap gap-4">
-                            <div><strong>Call for Papers:</strong> March 22, 2026</div>
-                            <div><strong>Submission Deadline:</strong> April 24, 2026</div>
-                            <div><strong>Notification:</strong> May 15, 2026</div>
-                            <div><strong>Workshop:</strong> July 2026 (ICML, Seoul)</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <footer class="site-footer">
         <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
             <div id="footerLeft">© ICML 2026 Workshop Proposal (Submitted) — Foundations of Human–AI Interactions</div>
