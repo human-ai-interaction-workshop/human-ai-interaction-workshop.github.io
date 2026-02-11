@@ -128,6 +128,7 @@ async function renderSpeakers() {
                 </div>
                 ${tagHTML(status)}
               </div>
+              ${s.title ? `<p class="speaker-title">${escapeHTML(s.title)}</p>` : ""}
               <p class="speaker-affil">${escapeHTML(s.affiliation || "")}</p>
               ${s.topic ? `<p class="tiny mb-0">${escapeHTML(s.topic)}</p>` : ""}
             </div>

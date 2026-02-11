@@ -2,6 +2,7 @@
   "speakers": [
     {
       "name": "Been Kim",
+      "title": "Senior Staff Research Scientist",
       "affiliation": "Google DeepMind",
       "status": "confirmed",
       "topic": "Interpretability",
@@ -9,6 +10,7 @@
     },
     {
       "name": "Jessica Hullman",
+      "title": "Ginni Rometty Professor of Computer Science",
       "affiliation": "Northwestern University",
       "status": "confirmed",
       "topic": "Bayesian Decision Theory, Uncertainty Quantification, AI for Decision-Making",
@@ -16,6 +18,7 @@
     },
     {
       "name": "Hamed Hassani",
+      "title": "Associate Professor of Electrical and Systems Engineering",
       "affiliation": "University of Pennsylvania",
       "status": "confirmed",
       "topic": "Trustworthy ML, Information Theory",
@@ -23,6 +26,7 @@
     },
     {
       "name": "Amine Bennouna",
+      "title": "Assistant Professor of Operations, Kellogg School of Management",
       "affiliation": "Northwestern University",
       "status": "confirmed",
       "topic": "Data-driven Decision Making, Optimization",
@@ -30,6 +34,7 @@
     },
     {
       "name": "Eric Zelikman",
+      "title": "CEO and Co-Founder",
       "affiliation": "Humans&",
       "status": "confirmed",
       "topic": "Large Language Models, AI for Science",
@@ -37,6 +42,7 @@
     },
     {
       "name": "Sin Yu Bonnie Ho",
+      "title": "Senior Research Scientist",
       "affiliation": "Microsoft Health and Life Sciences",
       "status": "confirmed",
       "topic": "AI for Decision-Making, Patient Care",

@@ -10,7 +10,7 @@
   /* 20% alpha category colors (3 categories) */
   --cat-talk:   rgba(37, 99, 235, 0.20);   /* talks & spotlights */
   --cat-poster: rgba(255, 193, 7, 0.20);   /* poster sessions */
-  --cat-other:  rgba(107, 114, 128, 0.20); /* breaks, games, panel, opening/closing */
+  --cat-other:  rgba(34, 197, 94, 0.20);  /* breaks, games, panel, opening/closing */
 
   --card:#ffffff;
   --paper:#f6f7fb;
@@ -156,6 +156,7 @@ section{ padding: 76px 0; }
 .avatar.avatar-lg svg{ width: 60px; height: 60px; }
 .avatar svg{ width: 44px; height: 44px; opacity: 0.92; }
 .speaker-name{ font-weight: 750; margin-bottom: 0.1rem; }
+.speaker-title{ color: var(--muted); font-size: 0.92rem; margin-bottom: 0; }
 .speaker-affil{ color: var(--muted); margin-bottom: 0; }
 
 /* Person cards (organizers, advisory) */
