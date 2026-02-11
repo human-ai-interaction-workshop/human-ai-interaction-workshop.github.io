@@ -7,11 +7,10 @@
   --brand:#1e3a8a;   /* deep blue */
   --brand2:#8b1a1a;  /* dark red */
   
-  /* 20% alpha category colors */
-  --cat-yellow: rgba(255, 193, 7, 0.20);   /* keynote */
-  --cat-blue:   rgba(37, 99, 235, 0.20);   /* general */
-  --cat-red:    rgba(220, 38, 38, 0.20);   /* special */
-  --cat-green:  rgba(34, 197, 94, 0.20);   /* lunch */
+  /* 20% alpha category colors (3 categories) */
+  --cat-talk:   rgba(37, 99, 235, 0.20);   /* talks & spotlights */
+  --cat-poster: rgba(255, 193, 7, 0.20);   /* poster sessions */
+  --cat-other:  rgba(107, 114, 128, 0.20); /* breaks, games, panel, opening/closing */
 
   --card:#ffffff;
   --paper:#f6f7fb;
@@ -168,10 +167,9 @@ section{ padding: 76px 0; }
 /* Schedule */
 .schedule-table th{ color:#15223a; font-weight:750; font-size:.95rem; }
 .schedule-table td{ color:#22304a; }
-.rowtype-keynote td { background: var(--cat-yellow); }
-.rowtype-general td { background: var(--cat-blue); }
-.rowtype-special td { background: var(--cat-red); }
-.rowtype-break td   { background: var(--cat-green); }
+.rowtype-talk td   { background: var(--cat-talk); }
+.rowtype-poster td { background: var(--cat-poster); }
+.rowtype-other td  { background: var(--cat-other); }
 
 /* Footer */
 .site-footer{
@@ -208,7 +206,6 @@ section{ padding: 76px 0; }
   border: 1px solid rgba(16,24,40,0.15);
 }
 
-.legend-yellow{ background: var(--cat-yellow); }
-.legend-blue  { background: var(--cat-blue); }
-.legend-red   { background: var(--cat-red); }
-.legend-green { background: var(--cat-green); }
+.legend-talk  { background: var(--cat-talk); }
+.legend-poster{ background: var(--cat-poster); }
+.legend-other { background: var(--cat-other); }

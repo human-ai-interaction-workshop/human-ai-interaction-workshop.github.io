@@ -1,22 +1,22 @@
 {
   "note": "Tentative schedule. Exact timing TBD.",
   "items": [
-    { "time": "08:30–09:00", "session": "Breakfast + Human/AI Game #1 + Opening Remarks", "details": "Icebreaker activity and workshop framing", "type": "general" },
-    { "time": "09:00–09:30", "session": "Invited Talk #1", "details": "Title TBA", "type": "keynote" },
-    { "time": "09:30–10:00", "session": "Invited Talk #2", "details": "Title TBA", "type": "keynote" },
-    { "time": "10:00–11:00", "session": "Poster Session #1 + Coffee Break", "details": "Posters and discussion time", "type": "special" },
-    { "time": "11:00–11:30", "session": "Invited Talk #3", "details": "Title TBA", "type": "keynote" },
-    { "time": "11:30–12:00", "session": "Invited Talk #4", "details": "Title TBA", "type": "keynote" },
-    { "time": "12:00–12:30", "session": "Spotlight Oral Presentations #1", "details": "Three spotlight talks (10 min each)", "type": "special" },
-    { "time": "12:30–13:15", "session": "Networking / Mentorship Lunch", "details": "Lunch and discussion time", "type": "break" },
-    { "time": "13:15–13:30", "session": "Human/AI Game #2", "details": "Interactive activity with attendees", "type": "special" },
-    { "time": "13:30–14:00", "session": "Invited Talk #5", "details": "Title TBA", "type": "keynote" },
-    { "time": "14:00–14:30", "session": "Invited Talk #6", "details": "Title TBA", "type": "keynote" },
-    { "time": "14:30–15:30", "session": "Poster Session #2 + Coffee Break", "details": "Posters and discussion time", "type": "special" },
-    { "time": "15:30–16:00", "session": "Spotlight Oral Presentations #2", "details": "Three spotlight talks (10 min each)", "type": "special" },
-    { "time": "16:00–16:30", "session": "Invited Talk #7", "details": "Title TBA", "type": "keynote" },
-    { "time": "16:30–17:00", "session": "Interactive Panel", "details": "Panel discussion with all invited speakers and attendees", "type": "special" },
-    { "time": "17:00–17:05", "session": "Closing Remarks", "details": "Wrap-up and next steps", "type": "general" }
+    { "time": "08:30–09:00", "session": "Breakfast + Human/AI Game #1 + Opening Remarks", "details": "Icebreaker activity and workshop framing", "type": "other" },
+    { "time": "09:00–09:30", "session": "Invited Talk #1", "details": "Title TBA", "type": "talk" },
+    { "time": "09:30–10:00", "session": "Invited Talk #2", "details": "Title TBA", "type": "talk" },
+    { "time": "10:00–11:00", "session": "Poster Session #1 + Coffee Break", "details": "Posters and discussion time", "type": "poster" },
+    { "time": "11:00–11:30", "session": "Invited Talk #3", "details": "Title TBA", "type": "talk" },
+    { "time": "11:30–12:00", "session": "Invited Talk #4", "details": "Title TBA", "type": "talk" },
+    { "time": "12:00–12:30", "session": "Spotlight Oral Presentations #1", "details": "Three spotlight talks (10 min each)", "type": "talk" },
+    { "time": "12:30–13:15", "session": "Networking / Mentorship Lunch", "details": "Lunch and discussion time", "type": "other" },
+    { "time": "13:15–13:30", "session": "Human/AI Game #2", "details": "Interactive activity with attendees", "type": "other" },
+    { "time": "13:30–14:00", "session": "Invited Talk #5", "details": "Title TBA", "type": "talk" },
+    { "time": "14:00–14:30", "session": "Invited Talk #6", "details": "Title TBA", "type": "talk" },
+    { "time": "14:30–15:30", "session": "Poster Session #2 + Coffee Break", "details": "Posters and discussion time", "type": "poster" },
+    { "time": "15:30–16:00", "session": "Spotlight Oral Presentations #2", "details": "Three spotlight talks (10 min each)", "type": "talk" },
+    { "time": "16:00–16:30", "session": "Invited Talk #7", "details": "Title TBA", "type": "talk" },
+    { "time": "16:30–17:00", "session": "Interactive Panel", "details": "Panel discussion with all invited speakers and attendees", "type": "other" },
+    { "time": "17:00–17:05", "session": "Closing Remarks", "details": "Wrap-up and next steps", "type": "other" }
   ],
   "footnote": "All invited speakers are confirmed. Schedule subject to minor adjustments."
 }
