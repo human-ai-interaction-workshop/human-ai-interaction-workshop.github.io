@@ -68,22 +68,6 @@ async function renderSite() {
     heroPills.innerHTML = site.hero.pills.map(p => `<span class="pill">${escapeHTML(p)}</span>`).join("");
   }
 
-  // Contact links
-  const heroContact = document.getElementById("heroContact");
-  if (heroContact) {
-    const email = site.links?.email || "hai.icml26@gmail.com";
-    const x = site.links?.x || "https://x.com/your_handle_here";
-    const xHandle = site.links?.xHandle || "@your_handle_here";
-    heroContact.innerHTML = `
-      <div class="tiny" style="color: rgba(255,255,255,0.82);">
-        Contact:
-        <a href="mailto:${escapeHTML(email)}">${escapeHTML(email)}</a>
-        &nbsp;·&nbsp;
-        <a href="${escapeHTML(x)}" target="_blank" rel="noopener noreferrer">${escapeHTML(xHandle)}</a>
-      </div>
-    `;
-  }
-
   // About text + cards
   const aboutText = document.getElementById("aboutText");
   if (aboutText && site.about?.text) aboutText.textContent = site.about.text;
@@ -120,7 +104,7 @@ async function renderSpeakers() {
       <div class="col-lg-6">
         <div class="soft-card p-4 speaker-card">
           <div class="d-flex gap-3">
-            ${avatarSVG()}
+            ${headshot(s.image, s.name, "lg")}
             <div>
               <div class="d-flex align-items-center gap-2 flex-wrap">
                 <div class="speaker-name">

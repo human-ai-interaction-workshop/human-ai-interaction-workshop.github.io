@@ -1,11 +1,12 @@
 {
   "organizers": [
-    { "name": "Kwan Ho Ryan Chan", "affiliation": "University of Pennsylvania", "url": "https://ryanchankh.com", "image": "" },
-    { "name": "Sima Noorani", "affiliation": "University of Pennsylvania", "url": "", "image": "" },
-    { "name": "Hyewon Jeong", "affiliation": "Massachusetts Institute of Technology", "url": "", "image": "" },
-    { "name": "Jacopo Teneggi", "affiliation": "Johns Hopkins University", "url": "", "image": "" },
-
-    { "name": "Chris Chiu", "affiliation": "University of Cambridge", "url": "", "image": "" },
-    { "name": "Aditya Chattobadhyay", "affiliation": "Amazon AI Labs", "url": "", "image": "" }
+    { "name": "Kwan Ho Ryan Chan", "affiliation": "University of Pennsylvania", "url": "https://ryanchankh.com", "image": "assets/img/organizers/ryan.webp" },
+    { "name": "Sima Noorani", "affiliation": "University of Pennsylvania", "url": "https://nooranisima.github.io", "image": "assets/img/organizers/SimaNoorani.jpg" },
+    { "name": "Jacopo Teneggi", "affiliation": "Johns Hopkins University", "url": "https://jacopoteneggi.github.io", "image": "assets/img/organizers/jacopo.jpg" },
+    { "name": "Chris Chiu", "affiliation": "University of Cambridge", "url": "https://chiu.ai", "image": "assets/img/organizers/chris.jpeg" },
+    { "name": "Hyewon Jeong", "affiliation": "Massachusetts Institute of Technology", "url": "https://sites.google.com/view/hyewon-jeong/", "image": "assets/img/organizers/hyewon.jpg" },
+    { "name": "Aditya Chattobadhyay", "affiliation": "Amazon AI Labs", "url": "https://achatto1.github.io", "image": "assets/img/organizers/aditya.webp" },
+    { "name": "René Vidal", "affiliation": "University of Pennsylvania", "url": "http://vision.jhu.edu/rvidal.html", "image": "assets/img/organizers/rvidal16.png" },
+    { "name": "George Pappas", "affiliation": "University of Pennsylvania", "url": "https://www.georgejpappas.org", "image": "assets/img/organizers/George-Pappas.png" }
   ]
 }

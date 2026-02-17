@@ -6,7 +6,8 @@
       "affiliation": "Google DeepMind",
       "status": "confirmed",
       "topic": "Interpretability",
-      "url": ""
+      "image": "assets/img/speakers/Been_Kim.png",
+      "url": "https://beenkim.github.io"
     },
     {
       "name": "Jessica Hullman",
@@ -14,7 +15,8 @@
       "affiliation": "Northwestern University",
       "status": "confirmed",
       "topic": "Bayesian Decision Theory, Uncertainty Quantification, AI for Decision-Making",
-      "url": ""
+      "image": "assets/img/speakers/hullman.jpg",
+      "url": "https://users.eecs.northwestern.edu/~jhullman/"
     },
     {
       "name": "Hamed Hassani",
@@ -22,7 +24,8 @@
       "affiliation": "University of Pennsylvania",
       "status": "confirmed",
       "topic": "Trustworthy ML, Information Theory",
-      "url": ""
+      "image": "assets/img/speakers/hassani.jpg",
+      "url": "https://www.seas.upenn.edu/~hassani/"
     },
     {
       "name": "Amine Bennouna",
@@ -30,7 +33,8 @@
       "affiliation": "Northwestern University",
       "status": "confirmed",
       "topic": "Data-driven Decision Making, Optimization",
-      "url": ""
+      "image": "assets/img/speakers/Amine.jpg",
+      "url": "https://aminebennouna.com"
     },
     {
       "name": "Eric Zelikman",
@@ -38,7 +42,8 @@
       "affiliation": "Humans&",
       "status": "confirmed",
       "topic": "Large Language Models, AI for Science",
-      "url": ""
+      "image": "assets/img/speakers/eric.webp",
+      "url": "https://zelikman.me"
     },
     {
       "name": "Sin Yu Bonnie Ho",
@@ -46,6 +51,7 @@
       "affiliation": "Microsoft Health and Life Sciences",
       "status": "confirmed",
       "topic": "AI for Decision-Making, Patient Care",
+      "image": "assets/img/speakers/bonnie.jpeg",
       "url": ""
     }
   ]
